@@ -1,0 +1,200 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* navbar */
+.navbar {
+    height: 150px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.dot {
+    font-size: 48px !important;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-size: 18px;
+    gap: 18px;
+}
+
+
+/* carousel */
+
+/* vertical */
+
+
+/* vertical end */
+
+.orange-box {
+    width: 100%;
+    height: 520px;
+    background-color: #fbe2c0;
+}
+
+.short-br {
+    /* short break div */
+    height: 2px;
+    width: 75px;
+    background-color: black;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.br-left{
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.br-middle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-description {
+    margin-bottom: 75px;
+    font-size: 25px;
+}
+
+.carousel-button {
+    margin-bottom: 75px;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.clemo-button {
+    border: 0;
+    padding: 0.75em 2em 1em 2em;
+    border-radius: 2em;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.grey {
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+}
+
+.center-button{
+    display:block;
+    margin:auto;
+}
+
+/* what we do */
+
+.section-title{
+    height: 230px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: auto;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+/* what we do grid */
+
+h3{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+    word-wrap:normal;
+}
+
+.grid-description{
+    color: grey;
+    font-size: 18px;
+    line-height: 1.7em;
+    width: 90%;
+}
+
+.grid-description:first-of-type{
+    margin-bottom: 30px;
+}
+
+.grid-description:last-of-type{
+    margin-bottom: 50px;
+}
+
+.grid-div:not(:nth-of-type(5)){
+    margin-bottom: 100px;
+}
+
+.col > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* our best work */
+
+.col{
+    margin-bottom: 28px;
+}
+
+.what-we-do-grid .row{
+    column-gap: 28px !important;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.what-we-do-col{
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+
+#learn-more{
+    margin-bottom: 50px;
+}
+
+/* best team */
+
+.orange-team{
+    background-color:#fbe2c0;
+}
+
+.flex-it{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.team-container{
+    text-align: center;
+    overflow-wrap:break-word;
+    width: 300px;
+}
+
+.team-container > img{
+    border-radius: 50%;
+}

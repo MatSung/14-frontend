@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>clemo.</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block">
+                    <!-- hidden spacer to center brand on mobile -->
+                </span>
+                <a class="navbar-brand d-none d-lg-inline-block" href="#"> clemo<span class="dot">.</span> </a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- div to position navbar left with flex -->
+            <div class="collapse navbar-collapse flex-grow text-right" id="navbarNav">
+                <ul class="nav navbar-nav ms-auto">
+                    <li>
+                        <a class="nav-link" href="#">about us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">services</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">works</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div class="container">
+        <div id="carousel-example-generic" class="vertical carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-bs-target="carousel-example-generic" data-bs-slide-to="0"></li>
+                <li data-bs-target="carousel-example-generic" data-bs-slide-to="1"></li>
+                <li data-bs-target="carousel-example-generic" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="orange-box"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>we are clemo<span class="dot">.</span></h2>
+                        <div class="short-br br-middle""></div>
+                        <p class=" carousel-description">professionals <br />
+                            in the creative industries</p>
+                            <button class="clemo-button black carousel-button" href="#">get in touch</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="orange-box"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>we are clemo<span class="dot">.</span></h2>
+                            <div class="short-br br-middle"></div>
+                            <p class="carousel-description">professionals <br />
+                                in the creative industries</p>
+                            <button class="clemo-button black carousel-button" href="#">get in touch</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="orange-box"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>we are clemo<span class="dot">.</span></h2>
+                            <div class="short-br br-middle""></div>
+                        <p class=" carousel-description">professionals <br />
+                                in the creative industries</p>
+                                <button class="clemo-button black carousel-button" href="#">get in touch</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- what we do h1 -->
+            <div class="section-title">
+                <h1>what we do?</h1>
+            </div>
+
+            <!-- grid -->
+            <div class="container grid-div">
+                <div class="row">
+                    <div class="col">
+                        <img src="placeholder_560x560.png" alt="560x560 placeholder" />
+                    </div>
+                    <div class="col">
+                        <h3>creative</h3>
+                        <h2>kitchen</h2>
+                        <div class="short-br"></div>
+                        <p class="grid-description">Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium.
+                            totam rem aperiam. eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </p>
+                        <p class="grid-description">
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit. sed quia consequuntur
+                            magni dolores eos qui ratione voluptatem sequi
+                            nesciunt.
+                        </p>
+
+                        <button class="clemo-button grey">learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container grid-div">
+                <div class="row">
+                    <div class="col">
+                        <h3>art</h3>
+                        <h2>installation</h2>
+                        <div class="short-br"></div>
+                        <p class="grid-description">Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium.
+                            totam rem aperiam. eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </p>
+                        <p class="grid-description">
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit. sed quia consequuntur
+                            magni dolores eos qui ratione voluptatem sequi
+                            nesciunt.
+                        </p>
+
+                        <button class="clemo-button grey">learn more</button>
+                    </div>
+                    <div class="col">
+                        <img src="placeholder_560x560.png" alt="560x560 placeholder" />
+                    </div>
+                </div>
+            </div>
+            <div class="container grid-div">
+                <div class="row">
+                    <div class="col">
+                        <img src="placeholder_560x560.png" alt="560x560 placeholder" />
+                    </div>
+                    <div class="col">
+                        <h3>print</h3>
+                        <h2>design</h2>
+                        <div class="short-br"></div>
+                        <p class="grid-description">Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium.
+                            totam rem aperiam. eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </p>
+                        <p class="grid-description">
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit. sed quia consequuntur
+                            magni dolores eos qui ratione voluptatem sequi
+                            nesciunt.
+                        </p>
+
+                        <button class="clemo-button grey">learn more</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- our best work -->
+
+            <div class="section-title">
+                <h1>our best work</h1>
+            </div>
+
+            <!-- grid for best work -->
+            <div class="container what-we-do-grid">
+                <div class="row">
+                    <div class="col what-we-do-col">
+                        <img src="placeholder_364x364.png" alt="364x364 placeholder" />
+                        <img src="placeholder_364x590.png" alt="364x590 placeholder" />
+                    </div> 
+                    <div class="col what-we-do-col">
+                        <img src="placeholder_364x590.png" alt="364x590 placeholder" />
+                        <img src="placeholder_364x364.png" alt="364x364 placeholder" />
+                    </div>
+                    <div class="col what-we-do-col">
+                        <img src="placeholder_364x364.png" alt="364x364 placeholder" />
+                        <img src="placeholder_364x590.png" alt="364x590 placeholder" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- random learn more button -->
+            <div class="container">
+                <button class="clemo-button black center-button" id="learn-more">learn more</button>
+            </div>
+
+            <!-- best team -->
+
+            <div class="container-fluid orange-team">
+                <div class="section-title">
+                    <h1>best team</h1>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="orange-box flex-it">
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>paul hall</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>art director</p>
+
+                            </div>
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>joshua spencer</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>founder</p>
+                            </div>
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>diane lewis</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>artist, designer</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="orange-box flex-it">
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>paul hall</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>art director</p>
+
+                            </div>
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>joshua spencer</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>founder</p>
+                            </div>
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>diane lewis</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>artist, designer</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="orange-box flex-it">
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>matas sungaila</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>winner</p>
+
+                            </div>
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>joshua spencer</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>founder</p>
+                            </div>
+                            <div class="team-container">
+                                <img src="placeholder_168x168.png" alt="168x168 placeholder" />
+                                <h2>diane lewis</h2>
+                                <div class="short-br br-middle"></div>
+                                <p>artist, designer</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+</body>
+
+</html>
