@@ -1,5 +1,5 @@
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     box-sizing: border-box;
 }
 
@@ -37,6 +37,18 @@ h2 {
 
 /* vertical end */
 
+.carousel-indicators li, .carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    border: 2px solid black !important;
+    margin-right: 15px !important;
+}
+
+.carousel-indicators > .active{
+    background-color: black !important;
+}
+
 .orange-box {
     width: 100%;
     height: 520px;
@@ -63,6 +75,13 @@ h2 {
     margin-right: auto;
 }
 
+.br-right{
+    float:right;
+    display: block;
+    margin-left: 100%;
+    /* kol kas veikia bet reikes sutaisyt */
+}
+
 .carousel-description {
     margin-bottom: 75px;
     font-size: 25px;
@@ -76,6 +95,8 @@ h2 {
     color: black;
 }
 
+/* button */
+
 .clemo-button {
     border: 0;
     padding: 0.75em 2em 1em 2em;
@@ -87,15 +108,29 @@ h2 {
     color: white;
 }
 
+.black:hover{
+    background-color:#fbe2c0;
+    color: white;
+    bordeR: 1px solid black;
+}
+
 .white {
     background-color: white;
     color: black;
+}
+
+.white:hover{
+    background-color: #fbe2c0;
 }
 
 .grey {
     background-color: white;
     color: black;
     border: 1px solid grey;
+}
+
+.grey:hover{
+    border: 2px solid grey;
 }
 
 .center-button{
@@ -117,6 +152,7 @@ h1{
     margin: auto;
     font-weight: lighter;
     font-size: 60px;
+    font-family: Montserrat;
 }
 
 /* what we do grid */
@@ -162,7 +198,7 @@ h2{
 }
 
 .what-we-do-grid .row{
-    column-gap: 28px !important;
+    /* column-gap: 28px !important; */
     justify-content: center;
     margin-bottom: 28px;
 }
@@ -171,6 +207,7 @@ h2{
     display: flex;
     gap: 28px;
     flex-direction: column;
+    padding: 0;
 }
 
 #learn-more{
@@ -181,6 +218,7 @@ h2{
 
 .orange-team{
     background-color:#fbe2c0;
+    padding-bottom: 100px;
 }
 
 .flex-it{
@@ -193,8 +231,107 @@ h2{
     text-align: center;
     overflow-wrap:break-word;
     width: 300px;
+    
 }
 
 .team-container > img{
     border-radius: 50%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-block{
+    float:right;
+}
+
+.black-div{
+    background-color: black;
+    height: 704px;
+}
+
+.white-text{
+    color: white;
+}
+
+#address-container p, #email-container p, #phone-container p{
+    color: white;
+    font-size: 18px;
+    font-family: Montserrat;
+    display: inline-block;
+    position: relative;
+    left: 35px;
+}
+
+
+
+i {
+    display: inline-block;
+    margin: auto;
+}
+
+.get-in-touch{
+    margin-bottom: 30px;
+}
+
+.white-social{
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+.white-social:hover{
+    background-color: #fbe2c0;
+}
+
+label{
+    font-size: 14px;
+    color: grey;
+}
+
+input{
+    display: block;
+    width: 95%;
+    height: 45px;
+    margin-bottom: 30px;
+    border: 0;
+    border-top: 1px solid grey;
+    background-color: rgba(0,0,0,0);
+    color: grey;
+    font-family: Montserrat;
+}
+
+.text-area{
+    border-bottom: 1px solid grey;
+    height: 5em;
+}
+
+input:focus{
+    border: 0;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.copywrite{
+    height: 140px;
+}
+
+#copywrite{
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#copywrite p{
+    color: grey;
 }
